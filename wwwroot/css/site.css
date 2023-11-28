@@ -56,16 +56,18 @@ body {
 
 button {
     border: none;
+    background-color: white;
     color: black;
     text-align: center;
     padding: 10px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 25px;
+    height: 300px;
 }
 
     button:hover {
-        color: white;
+        color: rgba(19,44,42);
         background-color: #f6c947;
         border-radius: 25px;
     }
