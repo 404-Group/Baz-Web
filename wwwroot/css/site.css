@@ -1,16 +1,13 @@
 html {
     font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
     html {
         font-size: 16px;
     }
-}
-
-html {
-    position: relative;
-    min-height: 100%;
 }
 
 body {
@@ -67,6 +64,25 @@ button {
 }
 
     button:hover {
+        color: rgba(19,44,42);
+        background-color: #f6c947;
+        border-radius: 25px;
+    }
+
+buttonWide {
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+    height: 300px;
+    grid-column: span 2 / span 2;
+}
+
+    buttonWide:hover {
         color: rgba(19,44,42);
         background-color: #f6c947;
         border-radius: 25px;
